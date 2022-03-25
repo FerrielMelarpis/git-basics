@@ -1,5 +1,5 @@
 numbers = [4, 5, 3, -7, 20, 0, 5]
-number = 3
+number = 2
 
 
 index = 0
@@ -10,4 +10,7 @@ while index < numbers.length
     end
 
     index = index + 1
+    if index == numbers.length then
+        puts "Not found in array"
+    end
 end
