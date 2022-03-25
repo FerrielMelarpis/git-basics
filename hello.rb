@@ -8,4 +8,6 @@ while index < numbers.length
         puts "Found in array"
         break
     end
+
+    index = index + 1
 end
