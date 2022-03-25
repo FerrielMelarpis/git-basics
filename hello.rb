@@ -9,7 +9,7 @@ while index < numbers.length
         break
     end
 
-    index = index + 2
+    index = index + 1
 end
 
 if index == numbers.length then
